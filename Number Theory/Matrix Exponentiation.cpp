@@ -1,16 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-/*
-|-------------------------------------|
-|Matrix exponentiation for find       |
-|the nth fibonacci number.            |
-|				      |
-|Time Complexity: O((N * M)^3 log P)  |
-|where P is the exponent              |
-|F(0) = 1, F(1) = 1.                  |
-|-------------------------------------|
-*/
-
 class Matrix{		
 	public:
 		int N, M; //Size of the Matrix
