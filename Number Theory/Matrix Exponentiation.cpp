@@ -13,7 +13,8 @@ class Matrix{
 			}
 		}
 		Matrix() : N(0), M(0) {}
-		
+	
+		//ToDo : Change Operator
 		Matrix operator* (Matrix B){
 			Matrix C(N, M);
 			for(int k=0;k<N;k++){
